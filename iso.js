@@ -49,6 +49,6 @@ console.log("Par input= " + util.inspect(info));
 //var msg = iso.pack(parsed);
 var msg = iso.pack(info);
 console.log("Input packed = " + msg);
-console.log("DONE \n");
+console.log("DONE   !!!");
 
 
