@@ -18,6 +18,41 @@ function addinfo(parsed,packager){ // Tao them thong tin tra ve
   return res;
 }
 
+var info = {
+  '0' : '0100',
+  '1' : 'F66064810870A0120000000000000004',
+  '2' : '4254464000000003',
+  '3' : '000000',
+  '4' : '000000005000',
+  '6' : '000000002079',
+  '7' : '0703114141',
+  '10' : '74158000',
+  '11' : '003776',
+  '18' : '5964',
+  '22' : '0120',
+  '25' : '00',
+  '32' : '465886',
+  '37' : '818511003',
+  '41' : '',
+  '42' : '000160140002167',
+  '43' : 'TSL FRANCHISE (M) SDN BHDKULA LUMPUR MY ',
+  '44' : 'P',
+  '49' : '458',
+  '51' : '702',
+  '60' : '42',
+  '63' : '8000000002',
+  '126' : '004800000000000000',   
+};
+console.log("Par input= " + util.inspect(info));
+//var msg = iso.pack(parsed);
+var msg = iso.pack(info);
+console.log("Input packed = " + msg);
+console.log("DONE   !!!");
+
+
+
+/*
+
 // Xu ly parse noi dung
 var msg = '0210723A00010A80840018593600141001099999011000000010000000100702153300000119153310061007065656561006090102240000000901360020100236C0102240000000';
 console.log("ORG = " + msg);
@@ -51,4 +86,5 @@ var msg = iso.pack(info);
 console.log("Input packed = " + msg);
 console.log("DONE   !!!");
 
+*/
 
