@@ -17,7 +17,7 @@ function addinfo(parsed,packager){ // Tao them thong tin tra ve
   }
   return res;
 }
-
+// err in bitmap
 var info = {
   '0' : '0100',
   '1' : 'F66064810870A0120000000000000004',
@@ -49,6 +49,17 @@ var msg = iso.pack(info);
 console.log("Input packed = " + msg);
 console.log("DONE   !!!");
 
+
+//  UNPACK
+console.log("UNPACK   !!!");
+console.log("ORG = " + msg);
+var parsed = iso.unpack(msg);
+console.log("Par =>>>>>>>> " + util.inspect(addinfo(parsed,packager)));
+//console.log("Par = " + util.inspect(parsed));
+//var iso = new ISO(packager);
+console.log("Parse complete >>" + msg + " <<\n");
+
+console.log("------------ 1111111111   -------------");
 
 
 
