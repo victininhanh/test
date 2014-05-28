@@ -17,6 +17,10 @@ function addinfo(parsed,packager){ // Tao them thong tin tra ve
   }
   return res;
 }
+console.log(new Date());
+
+
+
 // err in bitmap
 var info = {
   '0' : '0100',
