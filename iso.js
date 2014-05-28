@@ -51,7 +51,7 @@ console.log("DONE   !!!");
 
 
 
-/*
+
 
 // Xu ly parse noi dung
 var msg = '0210723A00010A80840018593600141001099999011000000010000000100702153300000119153310061007065656561006090102240000000901360020100236C0102240000000';
@@ -86,5 +86,5 @@ var msg = iso.pack(info);
 console.log("Input packed = " + msg);
 console.log("DONE   !!!");
 
-*/
+
 
